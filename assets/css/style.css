@@ -4,13 +4,17 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "Alegreya-Medium";
+  src: url(../fonts/Alegreya-VariableFont_wght.ttf);
+}
 header {
   background-color: #b3daff;
   padding: 2vh;
 }
 
 img {
-  position: fixed;
+  position: absolute;
   width: auto;
   height: auto;
   margin-left: 3%;
@@ -22,11 +26,45 @@ nav {
 }
 ul {
   list-style-type: none;
+  font-size: larger;
 }
 
 li {
   display: inline;
   padding: 5%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.photoPerfil {
+  width: 33%;
+  height: auto;
+  margin-left: 7%;
+  margin-top: -2%;
+}
+main {
+  background-color: aquamarine;
+  width: 50%;
+  margin-left: 50%;
+  padding: 3%;
+}
+h1 {
+  font-family: "Alegreya-Medium";
+  margin-top: -1%;
+  font-size: 3em;
+  columns: 2;
+}
+p {
+  margin-top: 3%;
   font-size: 2vh;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+article {
+  background-color: yellow;
+  width: 100%;
+}
+.tentantes {
+  display: flex;
+  width: 30%;
+  margin-left: 60%;
 }
