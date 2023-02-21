@@ -53,6 +53,13 @@ h1 {
   font-size: 3em;
   columns: 2;
 }
+h2 {
+  font-family: "Alegreya-Medium";
+  font-size: 2.5em;
+  text-align: center;
+  padding: 1%;
+  margin-left: 17%;
+}
 p {
   margin-top: 3%;
   font-size: 2vh;
@@ -60,11 +67,34 @@ p {
 }
 
 article {
-  background-color: yellow;
+  display: flexbox;
+  position: relative;
   width: 100%;
+  background-color: yellow;
 }
 .tentantes {
-  display: flex;
+  position: relative;
   width: 30%;
-  margin-left: 60%;
+  margin-left: 10%;
+}
+#chance {
+  position: relative;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 2vh;
+  background-color: pink;
+  width: 10%;
+  margin-left: 20%;
+  border-color: 2% 2% black;
+}
+.gravida {
+  position: relative;
+  width: 35%;
+  margin-left: 50%;
+  margin-top: -3%;
+}
+
+.tea {
+  position: relative;
+  width: 40%;
+  height: auto;
 }
