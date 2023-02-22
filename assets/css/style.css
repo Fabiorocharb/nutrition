@@ -561,3 +561,113 @@ div {
     width: 20%;
   }
 }
+@media screen and (min-width: 950px) and (max-width: 1280px) {
+  img {
+    width: 20%;
+    margin-top: -1%;
+  }
+  li {
+    padding: 4%;
+  }
+  .photoPerfil {
+    width: 40%;
+    margin-left: 0%;
+    margin-top: -5%;
+  }
+  h2 {
+    margin-left: 22%;
+  }
+  .tentantes {
+    width: 40%;
+    margin-left: 2%;
+  }
+  #chance {
+    font-size: 2.8vh;
+    width: 20%;
+    margin-left: 12%;
+    margin-top: 1%;
+  }
+  .gravida {
+    width: 45%;
+  }
+  #mulheres {
+    font-size: 2.8vh;
+    padding: 2vh;
+    width: 20%;
+    margin-left: 65%;
+    margin-top: 1%;
+  }
+  .tea {
+    width: 50%;
+    margin-left: 20%;
+    margin-top: 2%;
+  }
+
+  #down {
+    font-size: 2.5vh;
+    padding: 2vh;
+    width: 20%;
+    margin-left: 72%;
+    margin-top: -20%;
+  }
+  h3 {
+    margin-left: 22%;
+  }
+
+  #instagram {
+    display: flexbox;
+    position: absolute;
+    margin-top: 18%;
+  }
+
+  #gmail {
+    display: flexbox;
+    position: absolute;
+    margin-top: 17%;
+    margin-left: 75%;
+  }
+
+  .marcacao {
+    width: 50%;
+    margin-left: 25%;
+  }
+  .conecte {
+    display: flexbox;
+    position: absolute;
+    margin-top: 16%;
+  }
+
+  .agende {
+    display: flexbox;
+    position: absolute;
+    margin-top: 16%;
+    margin-left: 80%;
+  }
+  .direitos {
+    display: flexbox;
+    position: absolute;
+    margin-left: 42%;
+    margin-top: 38%;
+  }
+  .direitos1 {
+    display: flexbox;
+    position: absolute;
+    margin-top: 40%;
+    margin-left: 45%;
+  }
+
+  #details {
+    display: flexbox;
+    position: relative;
+    margin-top: 23%;
+    margin-left: 80%;
+  }
+
+  .ipad {
+    margin-left: -6%;
+  }
+
+  .notebook {
+    margin-left: 64%;
+  }
+}
