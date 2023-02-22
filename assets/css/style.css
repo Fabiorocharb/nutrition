@@ -433,3 +433,131 @@ div {
     padding: 1%;
   }
 }
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  header {
+    padding: 4vh;
+  }
+
+  img {
+    width: 30%;
+    margin-left: 0%;
+    margin-top: -3%;
+  }
+  nav {
+    margin-top: 7%;
+    margin-left: 38%;
+  }
+
+  li {
+    padding: 1%;
+  }
+  .photoPerfil {
+    width: 50%;
+    margin-left: 0%;
+    margin-top: 5%;
+  }
+  h1 {
+    columns: 1;
+  }
+  h2 {
+    margin-left: 31%;
+  }
+  .tentantes {
+    width: 45%;
+    margin-left: 2%;
+    margin-top: 2%;
+  }
+  #chance {
+    padding: 2vh;
+    width: 30%;
+    margin-left: 10%;
+    margin-top: 0.5%;
+  }
+  .gravida {
+    width: 45%;
+    margin-left: 54%;
+  }
+  #mulheres {
+    font-size: 2vh;
+    width: 20%;
+    margin-left: 70%;
+    margin-top: 1%;
+  }
+  .tea {
+    width: 50%;
+    margin-left: 10%;
+    margin-top: -5%;
+  }
+
+  #down {
+    width: 30%;
+    margin-left: 62%;
+    margin-top: -15%;
+  }
+
+  h3 {
+    margin-left: 33%;
+  }
+
+  .logoFooter {
+    display: flexbox;
+    position: relative;
+    margin: 0;
+  }
+  #instagram {
+    display: flexbox;
+    position: absolute;
+    margin-top: 30%;
+  }
+
+  #gmail {
+    display: flexbox;
+    position: absolute;
+    margin-top: 30%;
+    margin-left: 74%;
+  }
+  .marcacao {
+    margin-left: -30%;
+    width: 100%;
+  }
+  .conecte {
+    display: flexbox;
+    position: absolute;
+    margin-top: 30%;
+    font-size: 2.7vh;
+    margin-left: 1%;
+  }
+  .agende {
+    display: flexbox;
+    position: absolute;
+    margin-left: 80%;
+    margin-top: 30%;
+    font-size: 2.7vh;
+  }
+  .direitos {
+    display: flexbox;
+    position: absolute;
+    margin-left: 35%;
+    margin-top: 80%;
+  }
+  .direitos1 {
+    display: flexbox;
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 85%;
+  }
+  h4 {
+    display: flexbox;
+    text-align: right;
+    margin-top: -12%;
+    padding: 0;
+    font-size: 1.5em;
+  }
+  #details {
+    display: flexbox;
+    position: relative;
+    margin-top: 70%;
+    margin-left: 80%;
+    width: 20%;
+  }
+}
