@@ -41,7 +41,7 @@ li {
   margin-left: 7%;
   margin-top: -2%;
 }
-main {
+section {
   width: 50%;
   margin-left: 50%;
   padding: 3%;
@@ -149,6 +149,9 @@ article {
   display: flexbox;
   position: relative;
   background-color: #ff97b9;
+  width: 100%;
+  margin-left: 0%;
+  padding: 0%;
 }
 
 .celular {
@@ -254,7 +257,7 @@ div {
     margin-left: -5%;
     margin-top: -15%;
   }
-  main {
+  section {
     position: relative;
     display: flexbox;
     width: 100%;
