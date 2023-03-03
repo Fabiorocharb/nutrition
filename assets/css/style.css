@@ -191,7 +191,7 @@ div {
   margin-top: -18%;
 }
 
-#gmail {
+#zap {
   position: absolute;
   margin-top: -20%;
   margin-left: 77%;
@@ -235,10 +235,206 @@ div {
 #details {
   display: flexbox;
   position: relative;
-  margin-top: -10%;
+  margin-top: -5%;
   margin-left: 87%;
 }
+@media sreen and (min-widht: 320px) and (max-widht:480px) {
+  img {
+    position: absolute;
+    width: 5%;
+    margin-left: 0%;
+  }
+  nav {
+    padding: 2%;
+    margin-top: 1%;
+    text-align: left;
+  }
+  .photoPerfil {
+    position: relative;
+    display: flexbox;
+    width: 100%;
+    margin-left: -5%;
+    margin-top: -15%;
+  }
+  section {
+    position: relative;
+    display: flexbox;
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 0%;
+    padding: 0%;
+  }
+  h1 {
+    margin-top: 0%;
+    font-size: 2.5em;
+    columns: 1;
+    text-align: center;
+  }
 
+  p {
+    font-size: 1.5em;
+    padding: 1%;
+  }
+
+  h2 {
+    font-size: 2.5em;
+    text-align: center;
+    padding: 0%;
+    margin-left: 0%;
+  }
+
+  article {
+    display: flexbox;
+    position: relative;
+    width: 100%;
+    background-color: #fcee21;
+  }
+  .tentantes {
+    position: relative;
+    width: 90%;
+    margin-left: 5%;
+  }
+  #chance {
+    position: relative;
+    font-size: 2.5vh;
+    padding: 1vh;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 2%;
+  }
+  .gravida {
+    position: relative;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 3%;
+  }
+  #mulheres {
+    position: relative;
+    font-size: 2.5vh;
+    padding: 1vh;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 2%;
+  }
+  .tea {
+    position: relative;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 3%;
+  }
+
+  #down {
+    position: relative;
+    font-size: 2.5vh;
+    padding: 0.5vh;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 1%;
+  }
+  h3 {
+    position: relative;
+    font-size: 2.5em;
+    text-align: center;
+    padding: 2%;
+    margin-left: 0%;
+    margin-top: 0.2%;
+  }
+
+  .celular {
+    width: 100%;
+    margin-left: 2%;
+  }
+
+  .ipad {
+    width: 100%;
+    margin-left: 2%;
+  }
+
+  .notebook {
+    width: 100%;
+    margin-top: -20%;
+    margin-left: 2%;
+  }
+  footer {
+    display: flexbox;
+    position: relative;
+    padding: 2%;
+    width: 100%;
+    background-color: #66ebff;
+  }
+  .logoFooter {
+    position: relative;
+    width: 50%;
+    margin-left: 28%;
+  }
+  h4 {
+    display: flexbox;
+    position: relative;
+    margin: 0;
+    font-size: 1.5em;
+    text-align: center;
+  }
+
+  .conecte {
+    font-size: 1.8em;
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: 40%;
+  }
+  #instagram {
+    display: flexbox;
+    position: absolute;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: -50%;
+    padding: 0%;
+  }
+
+  .marcacao {
+    display: flexbox;
+    position: absolute;
+    padding: 0%;
+    width: 140%;
+    margin-top: 90%;
+    margin-left: -95%;
+  }
+
+  .direitos {
+    display: flexbox;
+    position: absolute;
+    font-size: 1.5em;
+    margin-left: 10%;
+    margin-top: 140%;
+  }
+  .direitos1 {
+    display: flexbox;
+    position: absolute;
+    font-size: 1.3em;
+    margin-left: 25%;
+    margin-top: 150%;
+  }
+  .agende {
+    display: flexbox;
+    position: absolute;
+    font-size: 1.8em;
+    margin-left: 33%;
+    margin-top: 82%;
+  }
+  #zap {
+    display: flexbox;
+    position: relative;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 83%;
+  }
+  #details {
+    display: flexbox;
+    position: relative;
+    margin-left: 60%;
+    margin-bottom: 0;
+    padding: 1%;
+  }
+}
 @media screen and (min-width: 375px) and (max-width: 767px) {
   img {
     position: absolute;
@@ -421,7 +617,7 @@ div {
     margin-left: 33%;
     margin-top: 82%;
   }
-  #gmail {
+  #zap {
     display: flexbox;
     position: relative;
     width: 70%;
@@ -513,7 +709,7 @@ div {
     margin-top: 30%;
   }
 
-  #gmail {
+  #zap {
     display: flexbox;
     position: absolute;
     margin-top: 30%;
@@ -565,6 +761,7 @@ div {
   }
 }
 @media screen and (min-width: 950px) and (max-width: 1280px) {
+
   img {
     width: 20%;
     margin-top: -1%;
@@ -623,7 +820,7 @@ div {
     margin-top: 18%;
   }
 
-  #gmail {
+  #zap {
     display: flexbox;
     position: absolute;
     margin-top: 17%;
@@ -667,10 +864,11 @@ div {
   }
 
   .ipad {
-    margin-left: -6%;
+    margin-left: -9%;
   }
 
   .notebook {
-    margin-left: 64%;
+    margin-left: 60%;
   }
+
 }
