@@ -238,22 +238,24 @@ div {
   margin-top: -5%;
   margin-left: 87%;
 }
-@media sreen and (min-widht: 320px) and (max-widht:480px) {
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
   img {
-    position: absolute;
-    width: 5%;
-    margin-left: 0%;
+    margin-left: 1%;
+    width: 45%;
   }
   nav {
-    padding: 2%;
-    margin-top: 1%;
-    text-align: left;
+    display: flexbox;
+    position: relative;
+    text-align: center;
+    margin-top: 0%;
   }
+
   .photoPerfil {
     position: relative;
     display: flexbox;
-    width: 100%;
-    margin-left: -5%;
+    width: 120%;
+    margin-left: -15%;
     margin-top: -15%;
   }
   section {
@@ -274,6 +276,7 @@ div {
   p {
     font-size: 1.5em;
     padding: 1%;
+    text-align: center;
   }
 
   h2 {
@@ -296,7 +299,7 @@ div {
   }
   #chance {
     position: relative;
-    font-size: 2.5vh;
+    font-size: 3.5vh;
     padding: 1vh;
     width: 50%;
     margin-left: 25%;
@@ -310,7 +313,7 @@ div {
   }
   #mulheres {
     position: relative;
-    font-size: 2.5vh;
+    font-size: 3.5vh;
     padding: 1vh;
     width: 50%;
     margin-left: 25%;
@@ -325,12 +328,14 @@ div {
 
   #down {
     position: relative;
-    font-size: 2.5vh;
-    padding: 0.5vh;
+    font-size: 3.5vh;
+    padding: 0.2vh;
     width: 50%;
     margin-left: 25%;
-    margin-top: 1%;
+    margin-top: 2%;
+    margin-bottom: 0.3%;
   }
+
   h3 {
     position: relative;
     font-size: 2.5em;
@@ -341,19 +346,19 @@ div {
   }
 
   .celular {
-    width: 100%;
-    margin-left: 2%;
+    width: 110%;
+    margin-left: -5%;
   }
 
   .ipad {
-    width: 100%;
-    margin-left: 2%;
+    width: 110%;
+    margin-left: -5%;
   }
 
   .notebook {
-    width: 100%;
+    width: 110%;
     margin-top: -20%;
-    margin-left: 2%;
+    margin-left: -5%;
   }
   footer {
     display: flexbox;
@@ -364,7 +369,7 @@ div {
   }
   .logoFooter {
     position: relative;
-    width: 50%;
+    width: 0%;
     margin-left: 28%;
   }
   h4 {
@@ -395,8 +400,8 @@ div {
     position: absolute;
     padding: 0%;
     width: 140%;
-    margin-top: 90%;
-    margin-left: -95%;
+    margin-top: 70%;
+    margin-left: -47%;
   }
 
   .direitos {
@@ -411,7 +416,7 @@ div {
     position: absolute;
     font-size: 1.3em;
     margin-left: 25%;
-    margin-top: 150%;
+    margin-top: 160%;
   }
   .agende {
     display: flexbox;
@@ -438,7 +443,7 @@ div {
 @media screen and (min-width: 375px) and (max-width: 767px) {
   img {
     position: absolute;
-    width: 42%;
+    width: 43%;
     margin-left: 1%;
   }
   nav {
@@ -592,7 +597,7 @@ div {
     position: absolute;
     padding: 0%;
     width: 140%;
-    margin-top: 90%;
+    margin-top: 80%;
     margin-left: -95%;
   }
 
@@ -716,7 +721,7 @@ div {
     margin-left: 74%;
   }
   .marcacao {
-    margin-left: -30%;
+    margin-left: -26%;
     width: 100%;
   }
   .conecte {
@@ -761,7 +766,6 @@ div {
   }
 }
 @media screen and (min-width: 950px) and (max-width: 1280px) {
-
   img {
     width: 20%;
     margin-top: -1%;
@@ -870,5 +874,4 @@ div {
   .notebook {
     margin-left: 60%;
   }
-
 }
