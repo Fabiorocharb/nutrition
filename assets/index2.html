@@ -37,10 +37,10 @@
         display: flexbox;
         position: absolute;
         font-family: "Alegreya-Medium";
-        font-size: 4vh;
+        font-size: 5vh;
         text-align: center;
         width: 50%;
-        margin-left: 25%;
+        margin-left: 50%;
         margin-top: 7%;
         text-shadow: 1px;
         color: white;
@@ -49,17 +49,31 @@
         font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
           "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
         text-align: center;
-        width: 50%;
-        margin-left: 25%;
-        margin-top: -35%;
+        width: 40%;
+        margin-left: 55%;
+        margin-top: -25%;
         color: white;
         text-shadow: 1px;
+        padding: 2%;
+      }
+
+      #gravid {
+        width: 50%;
+        margin-left: 5%;
+        margin-top: 5%;
       }
 
       img {
-        width: 60%;
-        margin-left: 20%;
-        margin-top: 5%;
+        width: 10%;
+        margin-left: 80%;
+      }
+
+      #index {
+        display: flexbox;
+        position: absolute;
+        width: 8%;
+        margin-top: 2%;
+        margin-left: -28%;
       }
 
       @media screen and (min-width: 320px) and (max-width: 480px) {
@@ -79,12 +93,25 @@
           text-shadow: 0px;
           padding: 1%;
         }
-
-        img {
+        #gravid {
           width: 100%;
           margin-left: 0%;
           margin-top: 0%;
-          background-size: cover;
+        }
+
+        img {
+          width: 40%;
+          margin-top: -5%;
+          margin-left: 60%;
+          border-style: hidden;
+        }
+
+        #index {
+          display: flexbox;
+          position: absolute;
+          width: 40%;
+          margin-top: 5%;
+          margin-left: -90%;
         }
       }
       @media screen and (min-width: 375px) and (max-width: 767px) {
@@ -106,62 +133,104 @@
           padding: 1%;
         }
 
-        img {
+        #gravid {
           width: 100%;
           margin-left: 0%;
           margin-top: 0%;
-          background-size: cover;
+        }
+
+        img {
+          width: 39%;
+          margin-top: 2%;
+          margin-left: 60%;
+          border-style: hidden;
+        }
+
+        #index {
+          display: flexbox;
+          position: absolute;
+          width: 35%;
+          margin-top: 10%;
+          margin-left: -90%;
         }
       }
       @media screen and (min-width: 768px) and (max-width: 1024px) {
         h5 {
-          font-size: 7vh;
+          font-size: 6vh;
           text-align: center;
           width: 0%;
-          margin-left: 28%;
-          margin-top: 3%;
+          margin-left: 32%;
+          margin-top: 5%;
         }
         p {
           text-align: center;
           width: 100%;
           margin-left: 0%;
-          margin-top: 6%;
+          margin-top: 0%;
           color: white;
           text-shadow: 0px;
           font-size: 2.5vh;
           padding: 1%;
         }
 
-        img {
+        #gravid {
           width: 100%;
           margin-left: 0%;
           margin-top: 0%;
-          background-size: cover;
+        }
+
+        img {
+          width: 25%;
+          margin-top: -5%;
+          margin-left: 70%;
+          border-style: hidden;
+        }
+
+        #index {
+          display: flexbox;
+          position: absolute;
+          width: 23%;
+          margin-top: 0%;
+          margin-left: -90%;
         }
       }
       @media screen and (min-width: 950px) and (max-width: 1280px) {
         h5 {
-          font-size: 7vh;
+          font-size: 5vh;
           text-align: center;
-          width: 0%;
-          margin-left: 40%;
-          margin-top: 4%;
+          width: 50%;
+          margin-left: 50%;
+          margin-top: 16%;
         }
         p {
           text-align: center;
-          width: 100%;
-          margin-left: 0%;
-          margin-top: 0%;
+          width: 50%;
+          margin-left: 50%;
+          margin-top: -28%;
           color: white;
           text-shadow: 0px;
-          font-size: 2.8vh;
+          font-size: 2vh;
           padding: 2%;
         }
 
+        #gravid {
+          width: 50%;
+          margin-left: 1%;
+          margin-top: 15%;
+        }
+
         img {
-          width: 90%;
-          margin-left: 5%;
+          width: 15%;
+          margin-top: -4%;
+          margin-left: 80%;
+        }
+
+        #index {
+          display: flexbox;
+          position: absolute;
+          width: 10%;
           margin-top: 0%;
+          margin-left: -35%;
         }
       }
     </style>
@@ -171,7 +240,11 @@
       <h5>Tentantes</h5>
 
       <figure>
-        <img src="image/testedegravidez.jpg" alt="Teste de gravidez." />
+        <img
+          id="gravid"
+          src="image/testedegravidez.jpg"
+          alt="Teste de gravidez."
+        />
       </figure>
 
       <p>
@@ -187,5 +260,16 @@
         essenciais para a gestante e para o bebê.
       </p>
     </aside>
+    <div>
+      <a
+        href="https://api.whatsapp.com/send?phone=5521977205202&text=Ol%C3%A1%20!%20Gostaria%20de%20marcar%20uma%20consulta."
+      >
+        <img id="zap" src="icon/zap.png" alt="logowhatsapp"
+      /></a>
+
+      <a href="index.html">
+        <img id="index" src="icon/logo.png" alt="logotipo"
+      /></a>
+    </div>
   </body>
 </html>
